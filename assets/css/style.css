@@ -1,0 +1,39 @@
+body{
+    background-image: url("../images/trivia.jpg");
+    background-size: 100%;
+}
+
+.container{
+    background-color: rgb(156, 156, 190);
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#clearfix{
+    overflow:auto
+}
+#clearfixx::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.jumbotron{
+    background-color:  rgb(156, 156, 190);
+    color: blue;
+    text-align: center;
+    font-size: 80px;
+}
+
+#start-button{
+    background-color: rgba(12, 12, 224, 0.452);
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.game-play{
+    text-align: center;
+}
