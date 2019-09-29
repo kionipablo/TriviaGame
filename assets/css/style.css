@@ -1,3 +1,7 @@
+html,
+body{
+    height:100%;
+}
 body{
     background-image: url("../images/trivia.jpg");
     background-size: 100%;
@@ -5,9 +9,8 @@ body{
 
 .container{
     background-color: rgb(156, 156, 190);
-    padding-bottom: 100px;
     align-items: center;
-    justify-content: center;
+    height: 100%;
 }
 
 #clearfix{
@@ -32,8 +35,18 @@ body{
     padding: 25px 50px;
     text-align: center;
     font-size: 30px;
+    justify-content: center;
 }
 
 .game-play{
     text-align: center;
+}
+
+.timer{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+#questions{
+    font-size: 20px;
 }
